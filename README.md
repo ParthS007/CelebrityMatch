@@ -11,5 +11,13 @@ Here is how the api works
 7.The application prints the results to the user.
 
 
+The application does the following:
 
+1.Accepts two Twitter usernames as variables
+2.Retrieves the last 200 Tweets from each Twitter username
+3.Sends the text of the 200 Tweets to the Personality Insights (PI) API (covered in more detail later in this course) to gain insights on the two users
+4.Compares the users to one another
+5.Displays the results of the comparison
+
+The final results displayed will be the top 5 traits shared between the two Twitter users (for example: you and a celebrity of your choice).
  
